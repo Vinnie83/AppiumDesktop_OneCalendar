@@ -3,7 +3,7 @@ using OpenQA.Selenium.Appium.Windows;
 
 namespace AppiumDesktop_OneCalendar
 {
-    public class Tests
+    public class OneCalendarTests
     {
         private WindowsDriver<WindowsElement> driver;
         private AppiumOptions appiumOptions;
