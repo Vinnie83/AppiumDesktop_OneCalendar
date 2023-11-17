@@ -25,10 +25,19 @@ namespace AppiumDesktop_OneCalendar
 
         }
 
+        [TearDown] 
+        
+        public void CloseApp() 
+        
+        {  
+            
+            driver.Quit();
+        
+        } 
         
 
         [Test]
-        public void Test1()
+        public void Test_CheckAddedAppointment()
         {
             Thread.Sleep(3000);
 
